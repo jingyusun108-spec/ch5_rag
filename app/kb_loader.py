@@ -1,9 +1,7 @@
-"""知识库加载模块（综合案例共享）
+"""知识库加载模块（供 rag_agent.py 与 rag_graph.py 复用）。
 
 批量加载 knowledge_base 目录下所有 PDF / TXT / DOCX 文档，
-统一分割 + 幂等去重，供 rag_agent.py 与 rag_graph.py 复用。
-
-覆盖教材 5.3 节的三种加载器：PyPDFLoader / TextLoader / Docx2txtLoader。
+统一分割 + 幂等去重。
 """
 import os
 import hashlib

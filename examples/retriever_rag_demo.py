@@ -1,10 +1,10 @@
-"""例 5.2-3 检索器创建与基础问答链路
+"""检索器创建与基础问答链路演示。
 
 验证 as_retriever() 将向量库转换为检索器，并打通完整 RAG 链路：
 检索 → 格式化上下文 → 填充提示词 → LLM 生成 → 输出
 
-前置条件：需运行 Redis Stack，且先执行 ex_5_2_2 完成入库
-运行：python ex_5_2_3_retriever_rag.py
+前置条件：需运行 Redis Stack，且先执行 redis_vector_store_demo 完成入库
+运行：python retriever_rag_demo.py
 """
 import os
 from dotenv import load_dotenv

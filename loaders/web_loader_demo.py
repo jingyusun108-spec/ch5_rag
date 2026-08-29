@@ -1,8 +1,7 @@
-"""例 5.3-4 从网页加载文档（WebBaseLoader）
+"""从网页加载文档（WebBaseLoader）。
 
 验证 WebBaseLoader：爬取网页正文，自动过滤广告/导航，保留 URL/标题元数据。
-依赖：pip install beautifulsoup4 lxml
-运行：python ex_5_3_4_web_loader.py
+运行：python web_loader_demo.py
 """
 from langchain_community.document_loaders import WebBaseLoader
 

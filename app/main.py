@@ -1,4 +1,4 @@
-"""综合案例：农业病虫害 RAG 问答系统 —— FastAPI 接口服务
+"""农业病虫害 RAG 问答系统 —— FastAPI 接口服务
 
 接口：
     GET /rag/ask?question=xxx   返回 JSON 问答结果

@@ -1,11 +1,11 @@
-"""例 5.2-2 Redis 向量入库和查询基础示例
+"""Redis 向量入库和查询演示。
 
 验证 RedisVectorStore 两大核心能力：
 1. 文本向量化后持久化入库
 2. 语义相似度检索（similarity_search_with_score，分数越小越相似）
 
-前置条件：需运行 Redis Stack（8.0+）
-运行：python ex_5_2_2_redis_store.py
+前置条件：需运行 Redis Stack
+运行：python redis_vector_store_demo.py
 """
 import os
 import hashlib

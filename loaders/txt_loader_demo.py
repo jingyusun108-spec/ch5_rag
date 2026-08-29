@@ -1,7 +1,7 @@
-"""例 5.3-2 加载本地 txt 文档（TextLoader）
+"""加载本地 txt 文档（TextLoader）。
 
 验证 TextLoader：加载纯文本文档为 List[Document]，自动保留 source 元数据。
-运行：python ex_5_3_2_txt_loader.py
+运行：python txt_loader_demo.py
 """
 import os
 from langchain_community.document_loaders import TextLoader

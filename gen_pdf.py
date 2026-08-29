@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""生成示例 PDF 知识库文件（供第5章 PDF 加载器与综合案例使用）。
+"""生成示例 PDF 知识库文件（供 PDF 加载器与问答系统使用）。
 
 使用 fpdf2 + simhei 中文字体，将 knowledge_base/rag_intro.txt 转为 PDF。
 运行：python gen_pdf.py

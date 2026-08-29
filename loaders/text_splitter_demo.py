@@ -1,10 +1,10 @@
-"""例 5.3-1 分割实操示例（RecursiveCharacterTextSplitter）
+"""文本分割演示（RecursiveCharacterTextSplitter）。
 
 验证递归字符分割器核心能力：
 1. 按 Token 精准计数（tiktoken + cl100k_base）
 2. 中文专属分隔符 + 重叠 + 起始索引 + 首尾空白清理
 
-运行：python ex_5_3_1_text_splitter.py
+运行：python text_splitter_demo.py
 """
 import tiktoken
 from langchain_core.documents import Document

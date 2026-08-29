@@ -1,8 +1,7 @@
-"""例 5.3-5 批量加载文件（DirectoryLoader）
+"""批量加载文件（DirectoryLoader）。
 
 验证 DirectoryLoader：按 glob 模式批量加载指定目录下不同格式文件。
-依赖：pip install pypdf docx2txt
-运行：python ex_5_3_5_directory_loader.py
+运行：python directory_loader_demo.py
 """
 import os
 from langchain_community.document_loaders import (

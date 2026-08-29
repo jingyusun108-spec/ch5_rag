@@ -1,10 +1,10 @@
-"""例 5.2-1 文本向量化
+"""文本向量化演示。
 
-验证文本向量化（Vectorization）核心知识点：
+验证向量化核心能力：
 1. OpenAIEmbeddings 将文本转换为固定长度向量
-2. 语义相近的文本（苹果/香蕉）在向量空间距离更近
+2. 语义相近的文本在向量空间距离更近
 
-运行：python ex_5_2_1_embedding.py
+运行：python embedding_demo.py
 """
 import os
 from dotenv import load_dotenv

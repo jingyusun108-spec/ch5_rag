@@ -1,9 +1,8 @@
-"""例 5.3-3 加载 PDF 文档（PyPDFLoader）
+"""加载 PDF 文档（PyPDFLoader）。
 
 验证 PyPDFLoader：每页返回一个 Document，元数据含 page/source；
 并结合 load_and_split 一站式「加载 + 分割」。
-依赖：pip install pypdf
-运行：python ex_5_3_3_pdf_loader.py
+运行：python pdf_loader_demo.py
 """
 import os
 from langchain_community.document_loaders import PyPDFLoader

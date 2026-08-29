@@ -1,14 +1,13 @@
-"""综合案例：基于 LangChain Agent + Redis 的农业病虫害 RAG 问答系统
+"""基于 LangChain Agent + Redis 的农业病虫害 RAG 问答系统。
 
-核心业务逻辑（对应教材例 5.4-1）：
+核心流程：
 1. 批量加载知识库（PDF/TXT/DOCX）→ 分割 → 向量化入 Redis
 2. 用户提问后，Agent 自动调用检索工具 search_agri_knowledge
 3. 检索结果判断：
    - 命中相似度达标的农技资料 → 基于知识库生成专业回答
    - 无匹配资料 → LLM 直接通用科普回答
 
-运行依赖：Redis Stack + requirements.txt
-先入库：python rag_agent.py  （__main__ 会自动 save_documents 再演示问答）
+运行：python rag_agent.py（首次会自动向量化入库，随后演示问答）
 """
 import os
 from dotenv import load_dotenv

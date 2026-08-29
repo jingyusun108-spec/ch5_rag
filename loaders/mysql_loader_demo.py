@@ -1,10 +1,9 @@
-"""例 5.3-6 加载 MySQL 数据（SQLDatabaseLoader）
+"""加载 MySQL 数据（SQLDatabaseLoader）。
 
 验证 SQLDatabaseLoader：将关系型数据库表数据读取为 Document，向量化入库 Redis。
-依赖：pip install sqlalchemy pymysql
 前置条件：需准备 MySQL 库 agri_db 表 wheat_tech（建表 SQL 见文件底部注释）。
 
-运行：python ex_5_3_6_mysql_loader.py
+运行：python mysql_loader_demo.py
 """
 import os
 import hashlib

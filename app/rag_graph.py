@@ -1,7 +1,6 @@
-"""综合案例补充：基于 LangGraph 的 RAG 条件分支工作流
+"""基于 LangGraph 的 RAG 条件分支工作流。
 
-对应教材课后「综合应用题」第 (4) 小题：
-用 LangGraph 实现「有相关检索结果则基于 RAG 生成回答，无则直接生成」的条件分支。
+实现「有相关检索结果则基于 RAG 生成回答，无则直接生成」的条件分支。
 
 流程（StateGraph）：
   START → retrieve（检索）→ 条件判断 route：
@@ -9,9 +8,7 @@
     - 无结果 → generate_direct（直接生成）
   → END
 
-运行依赖：Redis Stack + requirements.txt
-先入库：python rag_agent.py  （会自动 save_documents）
-运行：python rag_graph.py
+运行：python rag_graph.py（首次会自动向量化入库）
 """
 import os
 from typing import TypedDict
