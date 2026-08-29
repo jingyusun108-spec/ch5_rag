@@ -1,0 +1,40 @@
+# Ch5 RAG dependencies (install with Tsinghua mirror)
+# pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# LangChain core
+langchain>=1.0
+langchain-core
+langchain-openai
+langchain-community
+langchain-text-splitters
+
+# Vector store (Redis Stack)
+langchain-redis
+redis
+
+# LangGraph (conditional branch workflow)
+langgraph
+langgraph-checkpoint-redis
+
+# Embedding / token counting
+tiktoken
+
+# Document loader deps
+pypdf
+docx2txt
+beautifulsoup4
+lxml
+
+# Relational DB loader (ex 5.3-6)
+sqlalchemy
+pymysql
+
+# Base
+python-dotenv
+pydantic>=2.0
+requests
+openai
+
+# Web service (comprehensive case)
+fastapi
+uvicorn
